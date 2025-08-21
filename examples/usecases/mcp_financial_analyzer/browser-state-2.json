@@ -1,0 +1,75 @@
+{
+  "cookies": [
+    {
+      "name": "SNID",
+      "value": "ABablnd9nvEk8oFDNjabKUpOwXIY-FOqZb2zqjukgO43baz4AAlkQynOjdXQ8NSjNcW3Z5NS2bw5EI0lF3tzAbU67X-NfOeeSHA",
+      "domain": ".google.ca",
+      "path": "/verify",
+      "expires": 1764750200.718589,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AEC",
+      "value": "AVh_V2hTEEn1EfoafwnYmkWUElGzV06apTK2koeFpDFmB-DqaxNrb6q2Og",
+      "domain": ".google.ca",
+      "path": "/",
+      "expires": 1763946799.558363,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "524=dM-o82x1LDhKzf3aDraU-vMtuO4VyohBukDI5BBsy1y0Cs8ZjhtbHXVJcdz1MR3X9pqISU_HjqkD5WQB2txzo8BfBcmnrXge57Llg_h_9A2vkNR3scSZMv1jmTj-VdibR1Po24HNxRlWNyIGgRYT2HgflzzJAo5YzzOerASTxszKgZ441hZy0snDY_8kbq6kgcs7EbFGxZ3AyxbhtpvdaPhVuG4aE0wzHBYrnEaa2Y30po4K_4Fn10Uw7ae3hCt0JsIMrH3v",
+      "domain": ".google.ca",
+      "path": "/",
+      "expires": 1764750200.718537,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NID",
+      "value": "524=QwX0kl7yDuPgSKEy3POMJibHFebmtGedqfdsvPcOIeO9aVFM4RR6SIDhufT4_TbWLRURfrms6jBzuLl0EbVya6d1keg5SP1ETq27FYc4aQ43vLdYzxekUpr8OJlAcJ_oJx-6HrM44lfKEc30hdGYgsZLWmlDsBjdFO3gYWGyTk_Qi8H7De6tv_Dg0vkQezlH8g",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1764750201.857047,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.google.ca",
+      "localStorage": [
+        {
+          "name": "sb_wiz.zpc.gws-wiz-serp.",
+          "value": "{\"0\":[[\"apple financial statements\",0,[512,273,308,650,362],{\"zl\":90000}],[\"apple financial statements 2022\",0,[512,273,308,650,362],{\"zl\":90000}],[\"apple financial services\",0,[512,273,308,650,362],{\"zl\":90000}],[\"apple company news today\",0,[512,308,468,357,439,650,362,394],{\"zl\":90000}],[\"breaking news about apple today\",0,[512,308,468,357,439,650,362,394],{\"zl\":90000}],[\"apple stock news today\",0,[512,308,468,357,439,650,362,394],{\"zl\":90000}],[\"apple share price nse today\",0,[512,308,468,357,439,650,362,394],{\"zl\":90000}],[\"aapl stock news today\",0,[512,308,468,357,439,650,362,394],{\"zl\":90000}],[\"apple stock news forecast\",0,[512,308,468,357,439,650,362,394],{\"zl\":90000}],[\"apple stock news tomorrow\",0,[512,308,468,357,439,650,362,394],{\"zl\":90000}],[\"earthquakes\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"the last of us season 3 episodes\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"wake forest tennessee baseball\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"summer game fest games list\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"james bond 007 first light game\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"ripple xrp news\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"us visa interview appointment\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"pac 12 mountain west\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"nba basketball\",46,[3,308,362,143],{\"lm\":[],\"zf\":33,\"zh\":\"nba basketball\",\"zi\":\"NBA — League\",\"zl\":90001,\"zp\":{\"gs_ssp\":\"eJzj4tDP1TcwzSqrMGD04stLSlRISizOTi1JSszJAQBprwiK\"},\"zs\":\"data:image/png;base64,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\"}],[\"pet zebra escaped tennessee\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}]],\"1\":{\"ag\":{\"a\":{\"8\":[\"Trending searches\"],\"90000\":[\"Related to recent searches\",\"\",\"\",7],\"90001\":[\"Trending searches\",\"\",1,10]}},\"av\":\"-3983815656001628031\",\"q\":\"YipE7fTSkhlVoFsGb03j29L4y2Q\"}}"
+        },
+        {
+          "name": "sb_wiz.sr_di",
+          "value": "GPLqoZnM5ve1hwEYsdyMvb7mzJnTARjW78erq93SlRwYtY-R2a6Z3-MuGMzN_sT217KFQg"
+        },
+        {
+          "name": "sb_wiz.pq_tm_hp",
+          "value": "1748939003681"
+        },
+        {
+          "name": "sb_wiz.qc",
+          "value": "44"
+        },
+        {
+          "name": "sb_wiz.sc_pq",
+          "value": ""
+        },
+        {
+          "name": "sb_wiz.pq",
+          "value": "Apple financial news"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "cookies": [
+    {
+      "name": "SNID",
+      "value": "ABablnfVkhrWe4vvDQ9oP5I0j2U6ZAtJQEmVL0TIOu0oo4911Qawk7X04jXrgfq6_5Pa9L1-Ts30uBiKiCPMexmeL0ixIGQ8O1o",
+      "domain": ".google.co.uk",
+      "path": "/verify",
+      "expires": 1764381452.688112,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AEC",
+      "value": "AVh_V2gTKY1jlNMX-U0vaKLMows5hoC1IQo2AA0XJuLEAUbw9XWprIhirK8",
+      "domain": ".google.co.uk",
+      "path": "/",
+      "expires": 1763946799.581895,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "524=AOuO8VV9pw7VPpjXKArxsxesiXUdYSv_yk2pkjkB00NCwlmuCA0XxhuXFAxEY_R5TmS6PUHs1hZK0KBmy27Zs8oFVWGOfmZ8g4w5nMRWs79eLkn2aOg1lwi0bgOpHJ_j_cm3fTBWsMCWSU-mzgeYVPu6FGT1aJ0b1UkodNzjF34hlT8yTSFvjUS2PicRQcAJZ6JgjDqYSYNZnb4wpxgwPL4DSrWnrFcOP5oVkzGvSmi8-LLU0Nq2irTrLjV4T2P4FCoD8-VRyMc",
+      "domain": ".google.co.uk",
+      "path": "/",
+      "expires": 1764750200.582047,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NID",
+      "value": "524=r0OwweGxdWznW5s_vJZydeFK1sVjYZ4vU4bLQ8mYAbKigUT7bbr_UUThcfoncZ5-8GH7bROUYCPlAF-NjGR6Bjqto_4qa1kdV00ReWu_1f8GsSytEmdCQ5e78m_SJ-DBhzRJ6TgizVuxTAQJE8OXBZ3FIlw3ESN8vDSWFuzcWGbA0mYUyg0pmgly3WcZW1lC",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1764750201.859899,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "DV",
+      "value": "o7x_24OLLIETwPhEXvq4VJFOaDVOcxk",
+      "domain": "www.google.co.uk",
+      "path": "/",
+      "expires": 1748939604,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.google.co.uk",
+      "localStorage": [
+        {
+          "name": "sb_wiz.zpc.gws-wiz-serp.",
+          "value": "{\"0\":[[\"nvidia stock price\",0,[512,67,308,650,362],{\"zl\":90000}],[\"nvidia stock price today\",0,[512,67,308,650,362],{\"zl\":90000}],[\"amazon stock price today\",0,[512,67,308,650,362],{\"zl\":90000}],[\"microsoft stock price\",0,[512,67,308,650,362],{\"zl\":90000}],[\"google stock price\",0,[512,67,308,650,362],{\"zl\":90000}],[\"microsoft stock price today\",0,[512,67,308,650,362],{\"zl\":90000}],[\"walmart stock price today\",0,[512,67,308,650,362],{\"zl\":90000}],[\"meta stock price\",0,[512,67,308,650,362],{\"zl\":90000}],[\"disney stock price\",0,[512,67,308,650,362],{\"zl\":90000}],[\"tesla stock price today\",0,[512,67,308,650,362],{\"zl\":90000}],[\"crater lake national park superintendent\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"yellowstone national park bison\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"nyt connections hints\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"delta ending route\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"tennis french open\",46,[3,308,362,143],{\"lm\":[],\"zf\":33,\"zh\":\"French Open\",\"zi\":\"Tennis tournament\",\"zl\":90001,\"zp\":{\"gs_ssp\":\"eJzj4tTP1TcwNKpIzjFg9BIqSc3LyyxWSCtKzUvOUMgvSM0DAJb7Cj8\"},\"zs\":\"data:image/png;base64,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\"}],[\"ncaa baseball tournament super regionals\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"dow jones stock markets\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"big lots stores reopening\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"the accountant 2 prime video\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"rick and morty season 8 valkyrick\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}]],\"1\":{\"ag\":{\"a\":{\"8\":[\"Trending searches\"],\"90000\":[\"Related to recent searches\",\"\",\"\",7],\"90001\":[\"Trending searches\",\"\",1,10]}},\"av\":\"-7048022452884796845\",\"q\":\"AeVmFXIFpP1ENhLqnshGlU-HgzY\"}}"
+        },
+        {
+          "name": "sb_wiz.pq_tm_hp",
+          "value": "1748939004004"
+        },
+        {
+          "name": "sb_wiz.pq",
+          "value": "Apple stock price today"
+        },
+        {
+          "name": "sb_wiz.sr_di",
+          "value": "GMv8x-O90fDI-QEYtY-R2a6Z3-MuGNbvx6ur3dKVHBjWm_yZ992p37sBGNLes6Co2M-0vQE"
+        },
+        {
+          "name": "sb_wiz.qc",
+          "value": "45"
+        },
+        {
+          "name": "sb_wiz.sc_pq",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "cookies": [
+    {
+      "name": "AEC",
+      "value": "AVh_V2ixkntul4Sn6StJIBC7_q6KfNoYNBMfgMxFBL338gfnhBKrphLzmnI",
+      "domain": ".google.com.au",
+      "path": "/",
+      "expires": 1763946832.610413,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "524=thxIQTuyJ7XsXBBvdjN2bepdNy__O4zdu1VFC0SRYHftjAharfmkwIC1Ugubq_7HuNHoQwKHzID72Vckwiub4IR4QfLgk3UxVOJK_EjaXqRtLFx6QjW0xkScn2o0_DLZisW5j9uwCsZwcqyRvUwRC1YWRulxp2g3wxgJkzG8s55UprzR2qnhngQ3PTy4Kuxd0A",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1764206034.076821,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NID",
+      "value": "524=gA11S7NOI-W3iQ_IvaWqTnWzqS2KT23WKaNhC5gsj5wixyctPDaEjfYwLnjGD1aZ3i3aNEO059oyDuJbIZW6NtWFq9I2qVgZ-xi4OtoSqOICBfuulaNcP_oOJ7ry0a2GENA4zF4gX-JEaRUOCGjqUoG4Oyp4eIuqmERAyngy9pvFnY24m_zA-QU0WrKppUFNWSBEjblChMhou1YLPGKafPZsZRKDOddovEt_gKCMFMmp86wwA6npepBpZg4",
+      "domain": ".google.com.au",
+      "path": "/",
+      "expires": 1764206032.78069,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.google.com.au",
+      "localStorage": [
+        {
+          "name": "sb_wiz.zpc.gws-wiz-serp.",
+          "value": "{\"0\":[[\"apple stock forecast 2025\",0,[512,273,308,650,362],{\"zl\":90000}],[\"apple stock news\",0,[512,273,308,650,362],{\"zl\":90000}],[\"apple stock news today\",0,[512,273,308,650,362],{\"zl\":90000}],[\"apple company news today\",0,[512,273,308,650,362],{\"zl\":90000}],[\"apple inc news\",0,[512,273,308,650,362],{\"zl\":90000}],[\"star wars battlefront iii\",46,[3,308,362,143],{\"lm\":[],\"zf\":33,\"zh\":\"Star Wars: Battlefront III\",\"zi\":\"2015 video game\",\"zl\":90001,\"zp\":{\"gs_ssp\":\"eJzj4tLP1TcwTTI0SLM0YPSSLC5JLFIoTywqVkhKLCnJSU0rys8rUcjMzAQA6gwM8g\"},\"zs\":\"data:image/png;base64,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\"}],[\"crunchyroll anime awards 2025 winners\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"tsa airport cybersecurity warning\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"costco hours memorial day\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}],[\"nba draft order 2025\",0,[3,308,362,143],{\"zf\":33,\"zl\":90001,\"zp\":{\"gs_ss\":\"1\"}}]],\"1\":{\"ag\":{\"a\":{\"8\":[\"Trending searches\"],\"90000\":[\"Related to recent searches\",\"\",\"\",7],\"90001\":[\"Trending searches\",\"\",\"\",10]}},\"av\":\"5520335344187575206\",\"q\":\"wXlSYA82JQ_MI-1Q1vuVmyZfXqg\"}}"
+        },
+        {
+          "name": "sb_wiz.sr_di",
+          "value": "GLyagtHqtaW9TBjxm7n9ofalzPkBGKrm2tqokuraLRjwrN-B5ZGr3yMYv-fOuM3biflO"
+        },
+        {
+          "name": "sb_wiz.pq_tm_hp",
+          "value": "1748394836478"
+        },
+        {
+          "name": "sb_wiz.qc",
+          "value": "1"
+        },
+        {
+          "name": "sb_wiz.sc_pq",
+          "value": ""
+        },
+        {
+          "name": "sb_wiz.pq",
+          "value": "Apple trade tensions news May 2025"
+        }
+      ]
+    }
+  ]
+}

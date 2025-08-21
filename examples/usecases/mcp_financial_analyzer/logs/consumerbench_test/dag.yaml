@@ -1,0 +1,481 @@
+chatbot1:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_0
+  device: gpu
+  type: chatbot
+g-search_search-1:
+  num_requests: 1
+  ids:
+  - id_0
+  server_name: g-search
+  type: mcp_server
+chatbot2:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_1
+  device: gpu
+  type: chatbot
+chatbot3:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_2
+  device: gpu
+  type: chatbot
+g-search_search-2:
+  num_requests: 1
+  ids:
+  - id_1
+  server_name: g-search
+  type: mcp_server
+fetch_fetch-1:
+  num_requests: 1
+  ids:
+  - id_2
+  server_name: fetch
+  type: mcp_server
+chatbot4:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_3
+  device: gpu
+  type: chatbot
+chatbot5:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_4
+  device: gpu
+  type: chatbot
+g-search_search-3:
+  num_requests: 1
+  ids:
+  - id_3
+  server_name: g-search
+  type: mcp_server
+fetch_fetch-2:
+  num_requests: 1
+  ids:
+  - id_4
+  server_name: fetch
+  type: mcp_server
+fetch_fetch-3:
+  num_requests: 1
+  ids:
+  - id_5
+  server_name: fetch
+  type: mcp_server
+chatbot6:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_5
+  device: gpu
+  type: chatbot
+chatbot7:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_6
+  device: gpu
+  type: chatbot
+g-search_search-4:
+  num_requests: 1
+  ids:
+  - id_6
+  server_name: g-search
+  type: mcp_server
+fetch_fetch-4:
+  num_requests: 1
+  ids:
+  - id_7
+  server_name: fetch
+  type: mcp_server
+chatbot8:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_7
+  device: gpu
+  type: chatbot
+fetch_fetch-5:
+  num_requests: 1
+  ids:
+  - id_8
+  server_name: fetch
+  type: mcp_server
+fetch_fetch-6:
+  num_requests: 1
+  ids:
+  - id_9
+  server_name: fetch
+  type: mcp_server
+fetch_fetch-7:
+  num_requests: 1
+  ids:
+  - id_10
+  server_name: fetch
+  type: mcp_server
+chatbot9:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_8
+  device: gpu
+  type: chatbot
+filesystem_create_directory-1:
+  num_requests: 1
+  ids:
+  - id_11
+  server_name: filesystem
+  type: mcp_server
+filesystem_write_file-1:
+  num_requests: 1
+  ids:
+  - id_12
+  server_name: filesystem
+  type: mcp_server
+chatbot10:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_9
+  device: gpu
+  type: chatbot
+chatbot11:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_10
+  device: gpu
+  type: chatbot
+g-search_search-5:
+  num_requests: 1
+  ids:
+  - id_13
+  server_name: g-search
+  type: mcp_server
+chatbot12:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_11
+  device: gpu
+  type: chatbot
+chatbot13:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_12
+  device: gpu
+  type: chatbot
+g-search_search-6:
+  num_requests: 1
+  ids:
+  - id_14
+  server_name: g-search
+  type: mcp_server
+fetch_fetch-8:
+  num_requests: 1
+  ids:
+  - id_15
+  server_name: fetch
+  type: mcp_server
+chatbot14:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_13
+  device: gpu
+  type: chatbot
+chatbot15:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_14
+  device: gpu
+  type: chatbot
+g-search_search-7:
+  num_requests: 1
+  ids:
+  - id_16
+  server_name: g-search
+  type: mcp_server
+chatbot16:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_15
+  device: gpu
+  type: chatbot
+chatbot17:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_16
+  device: gpu
+  type: chatbot
+g-search_search-8:
+  num_requests: 1
+  ids:
+  - id_17
+  server_name: g-search
+  type: mcp_server
+chatbot18:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_17
+  device: gpu
+  type: chatbot
+fetch_fetch-9:
+  num_requests: 1
+  ids:
+  - id_18
+  server_name: fetch
+  type: mcp_server
+fetch_fetch-10:
+  num_requests: 1
+  ids:
+  - id_19
+  server_name: fetch
+  type: mcp_server
+fetch_fetch-11:
+  num_requests: 1
+  ids:
+  - id_20
+  server_name: fetch
+  type: mcp_server
+chatbot19:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_18
+  device: gpu
+  type: chatbot
+filesystem_create_directory-2:
+  num_requests: 1
+  ids:
+  - id_21
+  server_name: filesystem
+  type: mcp_server
+filesystem_write_file-2:
+  num_requests: 1
+  ids:
+  - id_22
+  server_name: filesystem
+  type: mcp_server
+chatbot20:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_19
+  device: gpu
+  type: chatbot
+chatbot21:
+  server_model: /home/cc/models/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf
+  client_model: openai/meta-llama/Llama-3.2-3B-Instruct
+  num_requests: 1
+  ids:
+  - id_20
+  device: gpu
+  type: chatbot
+workflows:
+  generate_1:
+    uses: chatbot1
+  tool_call_2:
+    uses: g-search_search-1
+    depend_on:
+    - generate_1
+  generate_2:
+    uses: chatbot2
+    depend_on:
+    - tool_call_2
+  generate_3:
+    uses: chatbot3
+    depend_on:
+    - generate_2
+  tool_call_5:
+    uses: g-search_search-2
+    depend_on:
+    - generate_3
+  tool_call_6:
+    uses: fetch_fetch-1
+    depend_on:
+    - tool_call_5
+  generate_4:
+    uses: chatbot4
+    depend_on:
+    - tool_call_6
+  generate_5:
+    uses: chatbot5
+    depend_on:
+    - generate_4
+  tool_call_9:
+    uses: g-search_search-3
+    depend_on:
+    - generate_5
+  tool_call_10:
+    uses: fetch_fetch-2
+    depend_on:
+    - tool_call_9
+  tool_call_11:
+    uses: fetch_fetch-3
+    depend_on:
+    - tool_call_10
+  generate_6:
+    uses: chatbot6
+    depend_on:
+    - tool_call_11
+  generate_7:
+    uses: chatbot7
+    depend_on:
+    - generate_6
+  tool_call_14:
+    uses: g-search_search-4
+    depend_on:
+    - generate_7
+  tool_call_15:
+    uses: fetch_fetch-4
+    depend_on:
+    - tool_call_14
+  generate_8:
+    uses: chatbot8
+    depend_on:
+    - tool_call_15
+  tool_call_17:
+    uses: fetch_fetch-5
+    depend_on:
+    - generate_8
+  tool_call_18:
+    uses: fetch_fetch-6
+    depend_on:
+    - tool_call_17
+  tool_call_19:
+    uses: fetch_fetch-7
+    depend_on:
+    - tool_call_18
+  generate_9:
+    uses: chatbot9
+    depend_on:
+    - tool_call_19
+  tool_call_21:
+    uses: filesystem_create_directory-1
+    depend_on:
+    - generate_9
+  tool_call_22:
+    uses: filesystem_write_file-1
+    depend_on:
+    - tool_call_21
+  generate_10:
+    uses: chatbot10
+    depend_on:
+    - tool_call_22
+  generate_11:
+    uses: chatbot11
+    depend_on:
+    - generate_10
+  tool_call_25:
+    uses: g-search_search-5
+    depend_on:
+    - generate_11
+  generate_12:
+    uses: chatbot12
+    depend_on:
+    - tool_call_25
+  generate_13:
+    uses: chatbot13
+    depend_on:
+    - generate_12
+  tool_call_28:
+    uses: g-search_search-6
+    depend_on:
+    - generate_13
+  tool_call_29:
+    uses: fetch_fetch-8
+    depend_on:
+    - tool_call_28
+  generate_14:
+    uses: chatbot14
+    depend_on:
+    - tool_call_29
+  generate_15:
+    uses: chatbot15
+    depend_on:
+    - generate_14
+  tool_call_32:
+    uses: g-search_search-7
+    depend_on:
+    - generate_15
+  generate_16:
+    uses: chatbot16
+    depend_on:
+    - tool_call_32
+  generate_17:
+    uses: chatbot17
+    depend_on:
+    - generate_16
+  tool_call_35:
+    uses: g-search_search-8
+    depend_on:
+    - generate_17
+  generate_18:
+    uses: chatbot18
+    depend_on:
+    - tool_call_35
+  tool_call_37:
+    uses: fetch_fetch-9
+    depend_on:
+    - generate_18
+  tool_call_38:
+    uses: fetch_fetch-10
+    depend_on:
+    - tool_call_37
+  tool_call_39:
+    uses: fetch_fetch-11
+    depend_on:
+    - tool_call_38
+  generate_19:
+    uses: chatbot19
+    depend_on:
+    - tool_call_39
+  tool_call_41:
+    uses: filesystem_create_directory-2
+    depend_on:
+    - generate_19
+  tool_call_42:
+    uses: filesystem_write_file-2
+    depend_on:
+    - tool_call_41
+  generate_20:
+    uses: chatbot20
+    depend_on:
+    - tool_call_42
+  generate_21:
+    uses: chatbot21
+    depend_on:
+    - generate_20

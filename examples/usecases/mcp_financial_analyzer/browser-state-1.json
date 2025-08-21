@@ -1,0 +1,101 @@
+{
+  "cookies": [
+    {
+      "name": "SNID",
+      "value": "ABablnfDIzc-BP3tQZpNS_AxrqJSMCr3X27zDPrNbDPj1rXoapC0z60YBZcvvQl5A-_AeJ52gp9w4Kat_q07Nripw9hZVwRRjJg",
+      "domain": ".google.com",
+      "path": "/verify",
+      "expires": 1764750201.713412,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "YSC",
+      "value": "i05JpUcBEEk",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "BNtQiTKwUqw",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1763951238.463293,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "value": "CgJVUxIEGgAgNA%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1763951238.463526,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "value": "CIiZyN_atIKiJhD69cHK_sSNAxjTof-3jMqNAw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1764122424.21615,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AEC",
+      "value": "AVh_V2ivciJfgnjM38fPH01WKcXD_JwuUOxH3tNm6T9jMfTmRNT9oLWH1qw",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1763946799.53921,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "524=DZhN7APWxpDMWrmmbBAddaFUO1NJOGd96ANmtL0Y-zkcK9a6fsNlGuyFO2IgWxGM_8x0vd4uXFkqU7Gavk3HgLuu-btJiDfvw_eQH6L1773VI8tGCB6ErPfEJM5E7q-1k0OenfxrvK5ls0LPIWEUhLWizBbhECTON7K9n2kYH_Zpo-BW_zbCaLaPoe1T9ydqU75HzAorsmrLKHu1L5r8GHAu_60JPKHpxmTqbmJPA8qGH8AfZKEDHfBTumluf4YGIKf2",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1764750201.713176,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "sb_wiz.sr_di",
+          "value": "GLHcjL2-5syZ0wEYh-zZvKjDrOnxARi7_v7XuKa8u74BGNmx8_3swLKetQEYrpLtvOfp17lO"
+        },
+        {
+          "name": "sb_wiz.pq_tm_hp",
+          "value": "1748939004459"
+        },
+        {
+          "name": "sb_wiz.qc",
+          "value": "44"
+        },
+        {
+          "name": "sb_wiz.sc_pq",
+          "value": ""
+        },
+        {
+          "name": "sb_wiz.pq",
+          "value": "Apple latest quarterly earnings"
+        }
+      ]
+    }
+  ]
+}

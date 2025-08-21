@@ -1,0 +1,101 @@
+{
+  "cookies": [
+    {
+      "name": "SNID",
+      "value": "ABablndY83JI0sLBcrO5J1WYWT-YQ638m44WEHuCHpB3ePbly28cXOuNKVBHSWwHNRVbfTArL7G3qvYAnr2JAjIi7Gk_MdYUqg",
+      "domain": ".google.com",
+      "path": "/verify",
+      "expires": 1764750200.716166,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "YSC",
+      "value": "INycanP4YJ4",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "ruMpwWvJ7fg",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1764035825.576182,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "value": "CgJVUxIEGgAgXw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1764035825.576274,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "value": "CIWkkuju-NC0YhD56cXqyceNAxja1OW3jMqNAw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1764122423.794045,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AEC",
+      "value": "AVh_V2hwJ0H7bWt8tFIo1xAk6xX1s00VRhJMYzBmyQvh6WyRLNPg5yBdfnE",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1763946799.541182,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "524=K6l4VJh9z0I1NcmNL3inGuAZrYJf2v66TaGfcSF8iGtF05MTErJKmhxEVdq5PGE0RwXo4tws4l_180QzqGR13HYOofIWB8h9hcWJDjgrCxtwklMwUD4HIScBF-vjiZcNjJC2dI1WFR7-PLjPD9AwrgHr5uwpiTaH-2zxniighFAcxgEmrP-C5CdoB4s3pP_VlHxILFKtDo6z_TIFnv5vGhLMgktJ8KR0qm3QPXsH-JJcdRAM6GKCXhoXHztrtVdrooGJ",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1764750200.716104,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "sb_wiz.sr_di",
+          "value": "GMLD5Yqcxc-NgwEY46u-otKF8JBCGIfs2byow6zp8QEY8q_S9_yRwfJ6GO7E2MSR7cCbsAE"
+        },
+        {
+          "name": "sb_wiz.pq_tm_hp",
+          "value": "1748939003568"
+        },
+        {
+          "name": "sb_wiz.qc",
+          "value": "44"
+        },
+        {
+          "name": "sb_wiz.sc_pq",
+          "value": ""
+        },
+        {
+          "name": "sb_wiz.pq",
+          "value": "Apple earnings expectations"
+        }
+      ]
+    }
+  ]
+}
