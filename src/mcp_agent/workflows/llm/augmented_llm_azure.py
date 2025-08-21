@@ -129,6 +129,8 @@ class AzureAugmentedLLM(AugmentedLLM[MessageParam, ResponseMessage]):
         The default implementation uses Azure OpenAI 4o-mini as the LLM.
         Override this method to use a different LLM.
         """
+        # print(f"endpoint: {self.context.config.azure.endpoint}")
+
         tracer = get_tracer(self.context)
         with tracer.start_as_current_span(f"llm_azure.{self.name}.generate") as span:
             span.set_attribute(GEN_AI_AGENT_NAME, self.agent.name)
@@ -489,6 +491,7 @@ class AzureCompletionTasks:
         """
         Request a completion from Azure's API.
         """
+        print(f"request payload: {request.payload}")
         if request.config.api_key:
             azure_client = ChatCompletionsClient(
                 endpoint=request.config.endpoint,

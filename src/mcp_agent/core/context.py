@@ -71,7 +71,7 @@ class Context(BaseModel):
 
     tracer: Optional[trace.Tracer] = None
     # Use this flag to conditionally serialize expensive data for tracing
-    tracing_enabled: bool = False
+    tracing_enabled: bool = True
 
     model_config = ConfigDict(
         extra="allow",

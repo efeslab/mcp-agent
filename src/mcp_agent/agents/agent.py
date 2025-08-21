@@ -884,6 +884,11 @@ class AgentTasks:
                     context=self.context,
                     name=request.agent_name,
                 )
+                # give me all the arguments
+                # print(f"server_names: {server_names}")
+                # print(f"connection_persistence: {connection_persistence}")
+                # print(f"context: {self.context}")
+                # print(f"name: {request.agent_name}")
                 self.server_aggregators_for_agent[request.agent_name] = aggregator
 
             # Bump the reference counter

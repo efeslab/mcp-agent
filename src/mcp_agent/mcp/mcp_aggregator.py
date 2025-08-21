@@ -596,6 +596,8 @@ class MCPAggregator(ContextDependent):
         """
         Call a namespaced tool, e.g., 'server_name.tool_name'.
         """
+        # print(f"calling tool: {name} with args: {arguments} and server_name: {server_name}")
+        # exit()
         tracer = get_tracer(self.context)
         with tracer.start_as_current_span(
             f"{self.__class__.__name__}.call_tool"
@@ -634,9 +636,11 @@ class MCPAggregator(ContextDependent):
                 "Requesting tool call",
                 data={
                     "progress_action": ProgressAction.CALLING_TOOL,
+                    "name": name,
                     "tool_name": local_tool_name,
                     "server_name": server_name,
                     "agent_name": self.agent_name,
+                    "arguments": arguments,
                 },
             )
             span.add_event(
@@ -670,12 +674,15 @@ class MCPAggregator(ContextDependent):
 
             async def try_call_tool(client: ClientSession):
                 try:
+                    # logger.info(f"[try_call_tool] calling tool: {local_tool_name} with args: {arguments}")
                     res = await client.call_tool(
                         name=local_tool_name, arguments=arguments
                     )
+                    # logger.info(f"[try_call_tool] result: {res}")
                     _annotate_span_for_result(res)
                     return res
                 except Exception as e:
+                    error_str = repr(e) if str(e) == "" else str(e)
                     span.set_status(trace.Status(trace.StatusCode.ERROR))
                     span.record_exception(e)
                     return CallToolResult(
@@ -683,7 +690,7 @@ class MCPAggregator(ContextDependent):
                         content=[
                             TextContent(
                                 type="text",
-                                text=f"Failed to call tool '{local_tool_name}' on server '{server_name}': {str(e)}",
+                                text=f"Failed to call tool '{local_tool_name}' on server '{server_name}': {error_str}",
                             )
                         ],
                     )

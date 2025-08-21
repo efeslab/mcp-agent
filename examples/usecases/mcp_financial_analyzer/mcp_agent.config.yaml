@@ -3,13 +3,22 @@ $schema: ../../schema/mcp-agent.config.schema.json
 # Configuration for Stock Analyzer with g-search-mcp
 execution_engine: asyncio
 
+logger:
+  transports: [file]
+  level: debug
+  progress_display: true
+  path_settings:
+    path_pattern: "logs/mcp-financial-analyzer-{unique_id}.jsonl"
+    unique_id: "timestamp" # Options: "timestamp" or "session_id"
+    timestamp_format: "%Y%m%d_%H%M%S"
+
 # MCP server configurations
 mcp:
   servers:
     # Fetch server for basic web retrieval
     fetch:
-      command: "uvx"
-      args: ["mcp-server-fetch"]
+      command: "python"
+      args: ["-m", "mcp_server_fetch"]
     
     # Google Search MCP server
     g-search:
@@ -22,7 +31,9 @@ mcp:
       args: ["-y", "@modelcontextprotocol/server-filesystem"]
 
 # Default OpenAI configuration
-openai:
-  default_model: gpt-4o
+anthropic:
+  default_model: claude-3-5-sonnet-20241022
+# azure:
+#   default_model: gpt-4o
 
 

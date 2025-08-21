@@ -5,7 +5,9 @@ An integrated financial analysis tool using the latest orchestrator implementati
 that now supports AugmentedLLM components directly.
 """
 
+import argparse
 import asyncio
+import logging
 import os
 import sys
 from datetime import datetime
@@ -14,15 +16,25 @@ from mcp_agent.agents.agent import Agent
 from mcp_agent.workflows.orchestrator.orchestrator import Orchestrator
 from mcp_agent.workflows.llm.augmented_llm import RequestParams
 from mcp_agent.workflows.llm.augmented_llm_openai import OpenAIAugmentedLLM
+from mcp_agent.workflows.llm.augmented_llm_anthropic import AnthropicAugmentedLLM
+from mcp_agent.workflows.llm.augmented_llm_azure import AzureAugmentedLLM
 from mcp_agent.workflows.evaluator_optimizer.evaluator_optimizer import (
     EvaluatorOptimizerLLM,
     QualityRating,
 )
 
+arg_parser = argparse.ArgumentParser(description="Analyze a company's stock performance")
+arg_parser.add_argument("--input", type=str, default="Apple", help="Company name to analyze")
+arg_parser.add_argument("--output", type=str, default="company_reports", help="Output directory")
+arg_parser.add_argument("--max_iterations", type=int, default=3, help="Maximum number of iterations")
+args = arg_parser.parse_args()
+
+
+
 # Configuration values
-OUTPUT_DIR = "company_reports"
-COMPANY_NAME = "Apple" if len(sys.argv) <= 1 else sys.argv[1]
-MAX_ITERATIONS = 3
+OUTPUT_DIR = args.output
+COMPANY_NAME = args.input
+MAX_ITERATIONS = args.max_iterations
 
 # Initialize app
 app = MCPApp(name="unified_stock_analyzer", human_input_callback=None)
@@ -103,7 +115,9 @@ async def main():
         research_quality_controller = EvaluatorOptimizerLLM(
             optimizer=research_agent,
             evaluator=research_evaluator,
-            llm_factory=OpenAIAugmentedLLM,
+            # llm_factory=OpenAIAugmentedLLM,
+            llm_factory=AnthropicAugmentedLLM,
+            # llm_factory=AzureAugmentedLLM,
             min_rating=QualityRating.EXCELLENT,
         )
 
@@ -155,7 +169,9 @@ async def main():
 
         # The updated Orchestrator can now take AugmentedLLM instances directly
         orchestrator = Orchestrator(
-            llm_factory=OpenAIAugmentedLLM,
+            # llm_factory=OpenAIAugmentedLLM,
+            llm_factory=AnthropicAugmentedLLM,
+            # llm_factory=AzureAugmentedLLM,
             available_agents=[
                 # We can now pass the EvaluatorOptimizerLLM directly as a component
                 research_quality_controller,
@@ -188,7 +204,8 @@ async def main():
         logger.info("Starting the stock analysis workflow")
         try:
             await orchestrator.generate_str(
-                message=task, request_params=RequestParams(model="gpt-4o")
+                # message=task, request_params=RequestParams(model="gpt-4o", maxTokens=2048)
+                message=task, request_params=RequestParams(model="claude-3-5-sonnet-20241022", maxTokens=2048)
             )
 
             # Check if report was successfully created

@@ -361,13 +361,12 @@ class MCPConnectionManager(ContextDependent):
             init_hook=init_hook or self.server_registry.init_hooks.get(server_name),
         )
 
-        async with self._lock:
-            # Check if already running
-            if server_name in self.running_servers:
-                return self.running_servers[server_name]
-
-            self.running_servers[server_name] = server_conn
-            self._tg.start_soon(_server_lifecycle_task, server_conn)
+        # async with self._lock:
+        # Check if already running
+        if server_name in self.running_servers:
+            return self.running_servers[server_name]
+        self.running_servers[server_name] = server_conn
+        self._tg.start_soon(_server_lifecycle_task, server_conn)
 
         logger.info(f"{server_name}: Up and running with a persistent connection!")
         return server_conn

@@ -138,6 +138,7 @@ class AnthropicAugmentedLLM(AugmentedLLM[MessageParam, Message]):
         The default implementation uses Claude as the LLM.
         Override this method to use a different LLM.
         """
+        self.logger.info(f"[generate] payload: {message}")
         tracer = get_tracer(self.context)
         with tracer.start_as_current_span(
             f"{self.__class__.__name__}.{self.name}.generate"
@@ -328,7 +329,7 @@ class AnthropicAugmentedLLM(AugmentedLLM[MessageParam, Message]):
                         )
                     )
                     span.set_attributes(response_data)
-
+            self.logger.info(f"[generate] responses: {responses}")
             return responses
 
     async def generate_str(
@@ -341,6 +342,7 @@ class AnthropicAugmentedLLM(AugmentedLLM[MessageParam, Message]):
         The default implementation uses Claude as the LLM.
         Override this method to use a different LLM.
         """
+        # self.logger.info(f"[generate_str] payload: {message}")
         tracer = get_tracer(self.context)
         with tracer.start_as_current_span(
             f"{self.__class__.__name__}.{self.name}.generate_str"
@@ -368,6 +370,7 @@ class AnthropicAugmentedLLM(AugmentedLLM[MessageParam, Message]):
 
             res = "\n".join(final_text)
             span.set_attribute("response", res)
+            # self.logger.info(f"[generate_str] response: {res}")
             return res
 
     async def generate_structured(
@@ -380,6 +383,7 @@ class AnthropicAugmentedLLM(AugmentedLLM[MessageParam, Message]):
         # We need to do this in a two-step process because Instructor doesn't
         # know how to invoke MCP tools via call_tool, so we'll handle all the
         # processing first and then pass the final response through Instructor
+        # self.logger.info(f"[generate_structured] payload: {message}")
         tracer = get_tracer(self.context)
         with tracer.start_as_current_span(
             f"{self.__class__.__name__}.{self.name}.generate_structured"
@@ -437,6 +441,7 @@ class AnthropicAugmentedLLM(AugmentedLLM[MessageParam, Message]):
                 except Exception:
                     span.set_attribute("unstructured_response", response)
 
+            # self.logger.info(f"[generate_structured] structured_response: {structured_response}")
             return structured_response
 
     @classmethod

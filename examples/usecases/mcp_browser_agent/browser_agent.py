@@ -9,6 +9,7 @@ from mcp_agent.app import MCPApp
 from mcp_agent.agents.agent import Agent
 from mcp_agent.mcp.mcp_connection_manager import MCPConnectionManager
 from mcp_agent.workflows.llm.augmented_llm_openai import OpenAIAugmentedLLM
+from mcp_agent.workflows.llm.augmented_llm_anthropic import AnthropicAugmentedLLM
 from mcp_agent.workflows.llm.augmented_llm import RequestParams
 import colorama
 from colorama import Fore, Style
@@ -70,7 +71,8 @@ async def initialize_browser_agent(url):
     )
 
     # Attach OpenAI LLM to agent
-    llm = await browser_agent.attach_llm(OpenAIAugmentedLLM)
+    # llm = await browser_agent.attach_llm(OpenAIAugmentedLLM)
+    llm = await browser_agent.attach_llm(AnthropicAugmentedLLM)
 
     # Navigate to initial URL
     initial_prompt = dedent(f"""
